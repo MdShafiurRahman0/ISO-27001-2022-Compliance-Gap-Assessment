@@ -269,4 +269,82 @@ Security Controls
 এগুলোই তোমার বাস্তব কাজের ভিত্তি হবে।
 
 
+সেজন্য প্রথমে Stakeholder Register তৈরি করো।
 
+এর মূল উদ্দেশ্য হলো: কোন Information-এর জন্য কোন ব্যক্তির কাছে যেতে হবে, তা আগে থেকে নির্ধারণ করা।
+
+
+. বাস্তব উদাহরণ: একটি Security Problem
+ধরো, আমাদের Simulated Riseup Labs-এ একজন Developer চাকরি ছেড়ে চলে গেছেন।
+
+কিন্তু তার GitHub Account এখনো Active।
+Security Risk: Unauthorized Access
+
+একজন সাবেক Developer এখনো Client-এর Source Code Access করতে পারছেন।
+
+GRC Analyst হিসেবে তোমার প্রশ্ন:
+1. Employee Resignation সম্পর্কে কে জানে?
+2. GitHub Access কে বন্ধ করে?
+3. Access বন্ধ হয়েছে কি না, তার Evidence কোথায়?
+
+তিনি বললেন:
+
+"এটা HR এবং IT-এর কাজ।"
+
+তাহলে তোমাকে আবার অন্য ব্যক্তির কাছে যেতে হবে।
+
+এতে সময় নষ্ট হবে এবং গুরুত্বপূর্ণ তথ্য বাদ পড়তে পারে।
+
+Stakeholder Register থাকলে আগে থেকেই জানবে:
+- Process Owner কে?
+- Technical Owner কে?
+- Approval Authority কে?
+- Evidence কোথায় পাওয়া যেতে পারে?
+
+- ৪. Stakeholder Register দিয়ে কী কী কাজ করা যায়?
+একজন GRC Analyst এটি ব্যবহার করেন:
+1. Interview Planning: কাকে Interview করতে হবে তা নির্ধারণ করতে।
+2. Evidence Collection: কার কাছ থেকে কোন Document বা Record চাইতে হবে।
+3. Responsibility Identification: কোন Process-এর দায়িত্ব কার।
+4. Risk Assessment: কোন Process Owner-এর কাছ থেকে Risk Information নিতে হবে।
+5. Audit Preparation: Auditor-এর প্রশ্নের উত্তর দেওয়ার জন্য সঠিক Contact Person খুঁজতে।
+
+৫. Stakeholder Register আর Evidence Register কি একই?
+না।
+
+Document	কাজ
+Stakeholder Register	কার কাছ থেকে তথ্য সংগ্রহ করবে
+Evidence Register	কী কী প্রমাণ সংগ্রহ করেছ
+Asset Register	কোন কোন Information Asset আছে
+Risk Register	কোন Asset বা Process-এ কী Risk আছে
+
+এগুলো একে অপরের সঙ্গে সম্পর্কিত, কিন্তু আলাদা কাজ করে।
+
+সহজ ভাষায়, কোম্পানির Information Assets-এর কী কী ক্ষতি হতে পারে, কেন হতে পারে এবং সেই ক্ষতির সম্ভাবনা ও প্রভাব কতটা—তা বিশ্লেষণ করাই Risk Assessment।
+
+\[
+\text{Risk Score}=\text{Likelihood}\times\text{Impact}
+\]
+
+Score	Level
+1–4	Low
+5–9	Medium
+10–16	High
+17–25	Critical
+
+- Likelihood: ঘটনাটি ঘটার সম্ভাবনা।
+- Impact: ঘটনা ঘটলে ব্যবসার ক্ষতির মাত্রা।
+
+
+২. Risk Register কেন তৈরি করবে?
+
+বাস্তব কোম্পানিতে GRC Analyst শুধু Risk-এর নাম লিখে রাখে না। 
+
+সে Management-কে বুঝতে সাহায্য করে:
+1. কোম্পানির কোন Asset ঝুঁকিতে আছে?
+2. কী কারণে ঝুঁকি তৈরি হচ্ছে?
+3. ঝুঁকিটি কতটা গুরুতর?
+4. কোন Risk আগে সমাধান করা প্রয়োজন?
+5. Risk কমানোর জন্য কী ব্যবস্থা নেওয়া উচিত?
+   
+তাই Risk Register হলো একটি central document, যেখানে Identified Risks, তাদের Assessment এবং Treatment Status সংরক্ষণ করা হয়।
