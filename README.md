@@ -1,0 +1,1 @@
+# ISO-27001-2022-Compliance-Gap-Assessment
